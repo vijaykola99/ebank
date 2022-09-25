@@ -1,0 +1,75 @@
+.login-background {
+  background: hsl(221, 58%, 20%);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form-background {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  width: 25vw;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.image-form-background {
+  background: #e0eefe;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+.login-image {
+  height: 50vh;
+  width: 30vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.login-button {
+  background: #1565d8;
+  color: #ffffff;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  cursor: pointer;
+}
+.input {
+  outline: none;
+  border: 1px solid #c3cad9;
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #5a7184;
+  font-weight: 700;
+}
+.label {
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #5a7184;
+}
+.welcome-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #183b56;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.checkbox-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

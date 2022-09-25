@@ -1,0 +1,39 @@
+.home-background {
+  background: #152850;
+  height: 100vh;
+  padding: 45px;
+  margin: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.home-header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logout-button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.home-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.digital-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.digital {
+  width: 40vw;
+}
